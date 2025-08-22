@@ -30,7 +30,7 @@ dotBtn.addEventListener("click", function () {
         console.log(dotBtn.textContent)
     }
     else if (dotBtn.textContent.includes(".")){
-        defolt.textContent += "";
+        defolt.textContent += ".";
     }
 });
 minusBtn.addEventListener("click", function () {
@@ -40,6 +40,7 @@ minusBtn.addEventListener("click", function () {
 });
 plusBtn.addEventListener("click", function () {
     console.log(plusBtn.textContent);
+    console.log("hey");
     defolt.textContent += plusBtn.textContent;
     operator = 'Plus';
 });
