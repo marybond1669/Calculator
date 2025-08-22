@@ -1,0 +1,84 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    height: 100vh;
+}
+
+.main_container {
+    width: 100%;
+    height: 100%;
+    width: 454px;
+    height: 780px;
+    background-color: #000;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculus {
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    padding: 100px 20px 20px 20px;
+}
+
+.action_list {
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    flex: 2;
+}
+
+.btn_lightgray {
+    width: 100%;
+    height: 100%;
+    max-width: 88px;
+    max-height: 88px;
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    border: none;
+    background-color: rgb(158, 158, 158);
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.btn_gray {
+    width: 100%;
+    height: 100%;
+    max-width: 88px;
+    max-height: 88px;
+    border-radius: 50px;
+    background-color: rgb(41, 40, 40);
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+.btn_orange {
+    width: 100%;
+    height: 100%;
+    max-width: 88px;
+    max-height: 88px;
+    border-radius: 50px;
+    background-color: rgb(250, 140, 50);
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+.btn_orange:hover {
+    background-color: rgb(255, 165, 0);
+}
